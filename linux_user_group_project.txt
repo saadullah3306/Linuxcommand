@@ -1,0 +1,39 @@
+    1  pwd
+    2  cd ..
+    3  cd /home/ubuntu
+    4  touch file1.txt
+    5  sudo adduser saad 
+    6  sudo adduser sami
+    7  sudo adduser sameer
+    8  cat /etc/passwd
+    9  grep saad /etc/passwd
+   10  grep sameer /etc/pwd
+   11  grep sameer /etc/passwd
+   12  sudo groupadd devops
+   13  cat /etc/group
+   14  grep devops /etc/group
+   15  sudo usermod -aG devops saad
+   16  groups saad
+   17  group saad
+   18  groups saad
+   19  sudo usermod -aG devops sami
+   20  sudo usermod -aG devops sameer
+   21  groups sameer
+   22  groups saad sami sameer
+   23  sudo usermod -aG saad
+   24  sudo usermod -aG devops saad
+   25  groups saad
+   26  sudo usermod -aG sudo saad
+   27  groups saad
+   28  git init
+   29  git remote add origion https://github.com/saadullah3306/Linuxcommand.git
+   30  ls
+   31  git remote remove origion
+   32  git remote add origin https://github.com/saadullah3306/Linuxcommand.git
+   33  ls
+   34  git add file1.txt
+   35  git add .
+   36  git commit -m "Initial commit: added file1.txt"
+   37  git branch -M main
+   38  git push -u origin main
+   39  history > linux_user_group_project.txt
