@@ -1,0 +1,78 @@
+    1  touch saad.txt
+    2  ls saad.txt
+    3  mkdir saad2
+    4  cp saad.txt saad2
+    5  ls
+    6  ls saad2
+    7  ls -l
+    8  chmod +x saaad.txt
+    9  chmod +x saad.txt
+   10  ls -l
+   11  nano saad.txt
+   12  cat saad.txt
+   13  whoami
+   14  htop
+   15  chown saad.txt
+   16  sudo chown saad.txt
+   17  useradd saad
+   18  sudo useradd saad
+   19  grep saad /etc/passwd
+   20  sudo group add devops
+   21  sudo groupadd devops
+   22  grep devops /etc/group
+   23  sudo chown saad
+   24  sudo usermod -aG devops saad
+   25  ls devops
+   26  groups devops
+   27  groups saad
+   28  sudo chown saad saad.txt 
+   29  ls
+   30  ls -l
+   31  ls saad
+   32  cp saad devops
+   33  ls saad.txt
+   34  cat saad.txt
+   35  git clone https://github.com/saadullah3306/Linuxcommand.git
+   36  git add .
+   37  ls -l
+   38  cd  Linuxcommand
+   39  git add .
+   40  git commit -m "updated command"
+   41  git push -u  origin main 
+   42  ls
+   43  git add saad.txt
+   44  ls saad.txt
+   45  ls
+   46  cd ..
+   47  add saad.txt Linuxcommand
+   48  git add saad.txt Linuxcommand
+   49  cd  Linuxcommand
+   50  git add saad.txt
+   51  git add .
+   52  git commit -m "yes updated "
+   53  git push -u origin main
+   54  pwd
+   55  cd ..
+   56  mv * Linuxcommand
+   57  ls
+   58  c ~
+   59  cd ..
+   60  ls -l
+   61  cd ..
+   62  cd -i
+   63  cd ~
+   64  ls
+   65  ls -l
+   66  mv *  Linuxcommand
+   67  mv saad.txt  Linuxcommand
+   68  pwd
+   69  ls -a
+   70  touch test.txt
+   71  mv test.txt Linuxcommand
+   72  nano test.txt
+   73  cat test.txt
+   74  cd Linuxcommand
+   75  ls
+   76  cd ..
+   77  history < allcommand.txt
+   78  history > allcommand.txt
